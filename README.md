@@ -14,6 +14,8 @@ Traditional state-of-the-art (SOTA) deblurring models such as NAFNet achieve exc
 | Medium     | 5M         | 35+ FPS   | +1–3%            | +17.3%                    |
 | Large      | 14M        | 20+ FPS   | +1–3%            | +11.4%                    |
 | NAFNet     | 68.7M      | 1–2 FPS   | +14.05%          | +189%                     |
+
+
 📌 SSIM = Structural Similarity Index
 📌 Laplacian = Edge sharpness metric used for visual fidelity evaluation
 Although the NAFNet model achieves significantly higher SSIM and Laplacian scores, it is too computationally expensive for real-time deployment, running at just 1–2 FPS. In contrast, our small model runs at over 100 FPS on most GPUs, making it ideal for live video processing.
